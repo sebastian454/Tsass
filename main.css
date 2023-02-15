@@ -1,0 +1,19 @@
+/* Clases para especificar el ancho de las columnas en diferentes tamaños de pantalla */
+.col.s12 {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 600px) {
+    .col.m6 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col.l6 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
